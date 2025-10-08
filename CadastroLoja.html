@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- Define que o documento está usando HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, garantindo suporte a acentuação -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna a página responsiva em dispositivos móveis -->
+    <title>Cadastro</title> <!-- Título da aba do navegador -->
+
+    <!-- Define o ícone da aba do navegador (favicon) -->
+    <link rel="shortcut icon" href="zlogo.png">
+
+    <link rel="stylesheet" href="CadastroLoja.css">
+
+    <!-- Importa o script JavaScript externo que deve conter a lógica do formulário -->
+    <script type="text/javascript" src="CadastroLoja.js"></script>
+</head>
+<body>
+
+<!-- Início do formulário de cadastro -->
+<form id="Cadastro" method="post"> <!-- Define o método de envio como POST -->
+
+    <h3>Cadastro Loja Games </h3>
+
+    <div class="container">
+        <h3>Cadastro Loja Games </h3>
+        <div class="box">
+
+        <!-- Campo de entrada para o email do usuário -->
+        <label for="email1">Email:</label>
+        <input type="email" id="email1" name="email"><br><br>
+        <!-- O tipo "email" já inclui validação básica de formato -->
+
+        <!-- Campo de entrada para a senha do usuário -->
+        <label for="senha1">Senha:</label>
+        <input type="password" id="senha1" name="senha"><br><br>
+        <!-- O tipo "password" oculta os caracteres digitados -->
+
+        </div>
+
+
+        <!-- Botão para enviar o formulário -->
+        <input class="button" type="submit" value="Enviar">
+
+        <!-- Botão para limpar os campos do formulário -->
+        <input class="button" type="reset" value="Limpar"><br><br>
+    </div>
+
+</form>
+
+</body>
+</html>
